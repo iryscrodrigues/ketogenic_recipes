@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Questrial&display=swap");
+
+body {
+  background-image: url("https://i.pinimg.com/736x/6c/5e/9c/6c5e9c2ccb94ee5a1089321f60ba93c4.jpg");
+  background-position: right bottom;
+  background-attachment: fixed;
+  background-color: #fff1d7;
+  background-repeat: no-repeat;
+  background-size: 25%;
+
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  align-items: center;
+}
+
+header {
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 42px;
+  line-height: 1.5;
+  color: #eb841e;
+  text-align: center;
+}
+
+.blink {
+  animation: blink 1s step-start 0s infinite;
+}
+
+form {
+  display: flex;
+}
+
+.form-container {
+  padding: 20px;
+}
+
+.hint {
+  font-size: 14px;
+  opacity: 0.8;
+  color: #000000;
+  font-weight: 800;
+  margin-left: 25px;
+}
+
+.instructions {
+  padding: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  line-height: 15px;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+}
+
+.submit-button {
+  margin-left: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #008000;
+  border: none;
+  width: 100px;
+  border-radius: 10px;
+  padding: 14px 24px;
+  box-shadow: 0px 2px 2px rgba(235, 132, 30, 0.9);
+}
+
+.recipe {
+  margin: 30px 0;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px 40px;
+  line-height: 2.5;
+  text-align: justify;
+}
+
+footer {
+  margin: 30px;
+  padding: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+a {
+  font-weight: 400;
+  color: #eb841e;
+
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+  color: #008000;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

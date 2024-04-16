@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/dbv5eym.css" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Vegetarian Recipe Generator</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>Ketogenic Recipe Generator</h1>
+      </header>
+      <main>
+        <div class="form-container">
+          <form id="recipe-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the ingredient(s) you would like to feature"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+        </div>
+        <div class="hint">i.e: meat and butter</div>
+        <div class="recipe" id="recipe"></div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://linkedin.com/in/iryscrodrigues" target="_blank">
+          Irys Rodrigues</a
+        >
+        and is
+        <a href="https://github.com/iryscrodrigues" target="_blank"
+          >open-sourced on GitHub
+        </a>
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
